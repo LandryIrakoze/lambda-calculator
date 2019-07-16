@@ -8,7 +8,7 @@ import { operators } from '../../../data';
 
 const Operators = (props) => {
   // STEP 2 - add the imported data to state
-  const [operators, setOperatorsState] = setState(operators);
+  const [operators, setOperatorsState] = useState(operators);
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
