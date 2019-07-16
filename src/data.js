@@ -32,3 +32,4 @@ const operators = [
 const specials = ["C", "+/-", "%"];
 
 export { numbers };
+export { operators };
