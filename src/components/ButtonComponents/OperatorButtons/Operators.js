@@ -5,7 +5,7 @@ import React from "react";
 //Import your array data to from the provided data file
 import { operators } from '../../../data';
 
-const Operators = () => {
+const Operators = (props) => {
   // STEP 2 - add the imported data to state
   return (
     <div>
