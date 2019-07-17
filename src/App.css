@@ -1,0 +1,41 @@
+.container {
+    background-color: #B51B3A;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+
+}
+
+.display {
+    padding: 10px 80px;
+    color: white;
+    background-color: grey;
+    font-size: 15px;
+}
+
+.btn {
+    color: white;
+    font-size: 15px;
+    border-radius: 100px;
+    background-color: #0B4375;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.operator {
+    background-color: #066994;
+}
+
+.special {
+    background-color: cadetblue;
+}
+
+.operatorsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbersContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
